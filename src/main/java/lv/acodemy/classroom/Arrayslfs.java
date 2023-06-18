@@ -1,8 +1,12 @@
 package lv.acodemy.classroom;
 
+import java.io.InputStream;
 import java.util.Arrays;
+import java.util.Random;
 
 public class Arrayslfs {
+    private static Random scanner;
+
     public static void main(String[] args) {
         //Array
         int[] numbers = {1, 5, 9, 10, 20, 30, 50};
@@ -94,9 +98,13 @@ public class Arrayslfs {
             numbers[2] = 10;
             System.out.println(Arrays.toString(numbers));
 
+
         }
+
     }
 }
+
+
 
 
 
